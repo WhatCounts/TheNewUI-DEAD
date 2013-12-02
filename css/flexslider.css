@@ -1,0 +1,124 @@
+/*
+ * jQuery FlexSlider v2.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ */
+
+ 
+/* Browser Resets */
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus  {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+
+/* FlexSlider Necessary Styles
+*********************************/ 
+.flexslider {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 20px !important;
+}
+
+.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {
+	width: 100%;
+	display: block;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+}
+
+.flex-pauseplay span {text-transform: capitalize;}
+
+/* Clearfix for the .slides element */
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+html[xmlns] .slides {display: block;} 
+* html .slides {height: 1%;}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {display: block;}
+
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider {margin-top: 14px; background: #fff; position: relative; zoom: 1;}
+.flex-viewport {max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
+.loading .flex-viewport {max-height: 300px;}
+.flexslider .slides {zoom: 1; position: relative;}
+
+.carousel li {margin-right: 5px}
+
+
+/* Direction Nav */
+
+.flex-direction-nav {
+	max-width: 100%; 
+	height: 40px; 
+	display: inline-block; 
+	position: absolute; 
+	top:50%;
+	margin-top: -20px;
+	left: 20px;
+	right: 20px;
+	cursor: pointer; 
+	text-indent: -9999px;
+	opacity: 0;
+	transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+}
+
+.flexslider:hover .flex-direction-nav {
+	opacity: 1;
+}
+
+.flex-direction-nav .flex-next {
+	width: 62px; 
+	height: 62px; 
+	background: url(../images/next.png) center no-repeat; 
+	float: right;
+	border: 1px solid rgba(255,255,255,0.3);
+	border: 1px solid rgb(255,255,255)\0/;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.flex-direction-nav .flex-prev {
+	width: 62px; 
+	height: 62px;  
+	background: url(../images/prev.png) center no-repeat; 
+	float: left;
+	border: 1px solid rgba(255,255,255,0.3);
+	border: 1px solid rgb(255,255,255)\0/;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.flexslider .flex-next:hover {
+	background: rgba(255,255,255,0.2) url(../images/next.png) center no-repeat;
+	background: rgb(255,255,255) url(../images/next.png) center no-repeat\0/;
+}
+.flexslider .flex-prev:hover {
+	background: rgba(255,255,255,0.2) url(../images/prev.png) center no-repeat;
+	background: rgb(255,255,255) url(../images/prev.png) center no-repeat\0/;
+}
+
+
+/* Control Nav */
+.flex-control-nav {min-width:50px; position: absolute; bottom: 5px; right: 5px; display: none;}

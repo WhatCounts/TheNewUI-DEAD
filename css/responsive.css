@@ -1,0 +1,437 @@
+
+@media screen and (max-width: 1200px) {
+    .navbar-default .navbar-nav > li > a {
+        font-size: 14px;
+        padding: 14px 10px 14px 35px;
+    }
+
+    .navbar-default .navbar-nav > li > a.home-nav {
+        background: url(../images/home.png) 5px center no-repeat;
+    }
+
+    .navbar-default .navbar-nav > li > a.portfolio-nav {
+        background: url(../images/portfolio.png) 5px center no-repeat;
+    }
+
+    .navbar-default .navbar-nav > li > a.services-nav {
+        background: url(../images/services.png) 5px center no-repeat;
+    }
+
+    .navbar-default .navbar-nav > li > a.testimonials-nav {
+        background: url(../images/testimonials.png) 5px center no-repeat;
+    }
+
+    .navbar-default .navbar-nav > li > a.about-nav {
+        background: url(../images/about.png) 5px center no-repeat;
+    }
+
+    .navbar-default .navbar-nav > li > a.contact-nav {
+        background: url(../images/contact.png) 5px center no-repeat;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover {
+        color: #fff;
+        background-color: #334455;
+    }
+
+    .navbar-default .navbar-nav > li > a.home-nav.active {
+        background: #1abc9c url(../images/home-active.png) 5px center no-repeat;
+    }
+
+    .navbar-default .navbar-nav > li > a.portfolio-nav.active {
+        background: #1abc9c url(../images/portfolio-active.png) 5px center no-repeat;
+    }
+
+    .navbar-default .navbar-nav > li > a.services-nav.active {
+        background: #1abc9c url(../images/services-active.png) 5px center no-repeat;
+    }
+
+    .navbar-default .navbar-nav > li > a.testimonials-nav.active {
+        background: #1abc9c url(../images/testimonials-active.png) 5px center no-repeat;
+    }
+
+    .navbar-default .navbar-nav > li > a.about-nav.active {
+        background: #1abc9c url(../images/about-active.png) 5px center no-repeat;
+    }
+
+    .navbar-default .navbar-nav > li > a.contact-nav.active {
+        background: #1abc9c url(../images/contact-active.png) 5px center no-repeat;
+    }
+
+    .projects-container {
+        width: 1000px;
+    }
+
+    .project-post {
+        width: 293px;
+    }
+
+    .contact-info ul li span.label.address {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 993px) {
+
+    .navbar-default .navbar-nav > li > a {
+        font-size: 12px;
+        background: none !important;
+        padding: 14px 8px 14px 8px;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover {
+        color: #fff;
+        background-color: #334455 !important;
+    }
+
+    .navbar-default .navbar-nav > li > a.active {
+        background: #1abc9c !important;
+    }
+
+    ul.filter li a {
+        font-size: 13px;
+        padding: 10px 13px;
+    }
+
+    .projects-container {
+        width: 750px;
+    }
+
+    .project-post {
+        width: 220px;
+    }
+
+    .team-member {
+        max-width: 300px;
+        margin: 0 auto 30px;
+    }
+
+    .contact-info ul li span.label.address {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .navbar-default .navbar-nav > li {
+        margin-left: 0px;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        border: none;
+        border-bottom: 1px solid #3e4e5e;
+        font-size: 14px;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -o-border-radius: 0px;
+    }
+
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: transparent !important;
+    }
+
+    .navbar-default .navbar-toggle {
+        margin-top: 33px;
+        outline: none !important;
+    }
+
+    .projects-container {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .project-post {
+        width: 100%;
+        margin: 15px 0;
+    }
+}
+
+/*-------------------------------------------------*/
+/* =  Services
+/*-------------------------------------------------*/
+@media screen and (max-width: 62.75em) {
+    .cbp-ig-grid li {
+        width: 50%;
+    }
+ 
+    /* reset the grid lines */
+    .cbp-ig-grid li:nth-child(-n+3){
+        border-top: 1px solid #ddd;
+    }
+ 
+    .cbp-ig-grid li:nth-child(3n-1),
+    .cbp-ig-grid li:nth-child(3n-2) {
+        box-shadow: none;
+    }
+ 
+    .cbp-ig-grid li:nth-child(-n+2){
+        border-top: none;
+    }
+ 
+    .cbp-ig-grid li:nth-child(2n-1) {
+        box-shadow: 1px 0 0 #ddd;
+    }
+}
+ 
+@media screen and (max-width: 41.6em) { 
+    .cbp-ig-grid li {
+        width: 100%;
+    }
+ 
+    .cbp-ig-grid li:nth-child(-n+2){
+        border-top: 1px solid #ddd;
+    }
+ 
+    .cbp-ig-grid li:nth-child(2n-1) {
+        box-shadow: none
+    }
+ 
+    .cbp-ig-grid li:first-child {
+        border-top: none;
+    }
+}
+ 
+@media screen and (max-width: 25em) { 
+    .cbp-ig-grid {
+        font-size: 80%;
+    }
+ 
+    .cbp-ig-grid .cbp-ig-category {
+        margin-top: 20px;
+    }
+}
+
+/*-------------------------------------------------*/
+/* =  Skin02 added
+/*-------------------------------------------------*/
+
+@media screen and (max-width: 1200px) {
+
+    .skin2 .navbar-default .navbar-nav > li > a.home-nav {
+        background: url(../images/skin2/home.png) 5px center no-repeat;
+    }
+
+    .skin2 .navbar-default .navbar-nav > li > a.portfolio-nav {
+        background: url(../images/skin2/portfolio.png) 5px center no-repeat;
+    }
+
+    .skin2 .navbar-default .navbar-nav > li > a.services-nav {
+        background: url(../images/skin2/services.png) 5px center no-repeat;
+    }
+
+    .skin2 .navbar-default .navbar-nav > li > a.testimonials-nav {
+        background: url(../images/skin2/testimonials.png) 5px center no-repeat;
+    }
+
+    .skin2 .navbar-default .navbar-nav > li > a.about-nav {
+        background: url(../images/skin2/about.png) 5px center no-repeat;
+    }
+
+    .skin2 .navbar-default .navbar-nav > li > a.contact-nav {
+        background: url(../images/skin2/contact.png) 5px center no-repeat;
+    }
+
+    .skin2 .navbar-default .navbar-nav > li > a:hover {
+        color: #fff;
+        background-color: #e85242;
+    }
+
+    .skin2 .navbar-default .navbar-nav > li > a.home-nav.active {
+        background: #fff url(../images/skin2/home-active.png) 5px center no-repeat;
+    }
+
+    .skin2 .navbar-default .navbar-nav > li > a.portfolio-nav.active {
+        background: #fff url(../images/skin2/portfolio-active.png) 5px center no-repeat;
+    }
+
+    .skin2 .navbar-default .navbar-nav > li > a.services-nav.active {
+        background: #fff url(../images/skin2/services-active.png) 5px center no-repeat;
+    }
+
+    .skin2 .navbar-default .navbar-nav > li > a.testimonials-nav.active {
+        background: #fff url(../images/skin2/testimonials-active.png) 5px center no-repeat;
+    }
+
+    .skin2 .navbar-default .navbar-nav > li > a.about-nav.active {
+        background: #fff url(../images/skin2/about-active.png) 5px center no-repeat;
+    }
+
+    .skin2 .navbar-default .navbar-nav > li > a.contact-nav.active {
+        background: #fff url(../images/skin2/contact-active.png) 5px center no-repeat;
+    }
+}
+
+@media screen and (max-width: 993px) {
+
+    .skin2 .navbar-default .navbar-nav > li > a:hover {
+        background-color: #e85242 !important;
+    }
+
+    .skin2 .navbar-default .navbar-nav > li > a.active {
+        background: #ffffff !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .skin2 .navbar-default .navbar-nav > li > a {
+        border-bottom: 1px solid #cf4436;
+    }
+}
+
+/*-------------------------------------------------*/
+/* =  Skin03 added
+/*-------------------------------------------------*/
+
+@media screen and (max-width: 1200px) {
+
+    .skin3 .navbar-default .navbar-nav > li > a.home-nav {
+        background: url(../images/skin3/home.png) 5px center no-repeat;
+    }
+
+    .skin3 .navbar-default .navbar-nav > li > a.portfolio-nav {
+        background: url(../images/skin3/portfolio.png) 5px center no-repeat;
+    }
+
+    .skin3 .navbar-default .navbar-nav > li > a.services-nav {
+        background: url(../images/skin3/services.png) 5px center no-repeat;
+    }
+
+    .skin3 .navbar-default .navbar-nav > li > a.testimonials-nav {
+        background: url(../images/skin3/testimonials.png) 5px center no-repeat;
+    }
+
+    .skin3 .navbar-default .navbar-nav > li > a.about-nav {
+        background: url(../images/skin3/about.png) 5px center no-repeat;
+    }
+
+    .skin3 .navbar-default .navbar-nav > li > a.contact-nav {
+        background: url(../images/skin3/contact.png) 5px center no-repeat;
+    }
+
+    .skin3 .navbar-default .navbar-nav > li > a:hover {
+        color: #fff;
+        background-color: #9e5eb8;
+    }
+
+    .skin3 .navbar-default .navbar-nav > li > a.home-nav.active {
+        background: #fff url(../images/skin3/home-active.png) 5px center no-repeat;
+    }
+
+    .skin3 .navbar-default .navbar-nav > li > a.portfolio-nav.active {
+        background: #fff url(../images/skin3/portfolio-active.png) 5px center no-repeat;
+    }
+
+    .skin3 .navbar-default .navbar-nav > li > a.services-nav.active {
+        background: #fff url(../images/skin3/services-active.png) 5px center no-repeat;
+    }
+
+    .skin3 .navbar-default .navbar-nav > li > a.testimonials-nav.active {
+        background: #fff url(../images/skin3/testimonials-active.png) 5px center no-repeat;
+    }
+
+    .skin3 .navbar-default .navbar-nav > li > a.about-nav.active {
+        background: #fff url(../images/skin3/about-active.png) 5px center no-repeat;
+    }
+
+    .skin3 .navbar-default .navbar-nav > li > a.contact-nav.active {
+        background: #fff url(../images/skin3/contact-active.png) 5px center no-repeat;
+    }
+}
+
+@media screen and (max-width: 993px) {
+
+    .skin3 .navbar-default .navbar-nav > li > a:hover {
+        background-color: #9e5eb8 !important;
+    }
+
+    .skin3 .navbar-default .navbar-nav > li > a.active {
+        background: #ffffff !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .skin3 .navbar-default .navbar-nav > li > a {
+        border-bottom: 1px solid #8b50a3;
+    }
+}
+
+/*-------------------------------------------------*/
+/* =  Skin04 added
+/*-------------------------------------------------*/
+
+@media screen and (max-width: 1200px) {
+
+    .skin4 .navbar-default .navbar-nav > li > a.home-nav {
+        background: url(../images/skin4/home.png) 5px center no-repeat;
+    }
+
+    .skin4 .navbar-default .navbar-nav > li > a.portfolio-nav {
+        background: url(../images/skin4/portfolio.png) 5px center no-repeat;
+    }
+
+    .skin4 .navbar-default .navbar-nav > li > a.services-nav {
+        background: url(../images/skin4/services.png) 5px center no-repeat;
+    }
+
+    .skin4 .navbar-default .navbar-nav > li > a.testimonials-nav {
+        background: url(../images/skin4/testimonials.png) 5px center no-repeat;
+    }
+
+    .skin4 .navbar-default .navbar-nav > li > a.about-nav {
+        background: url(../images/skin4/about.png) 5px center no-repeat;
+    }
+
+    .skin4 .navbar-default .navbar-nav > li > a.contact-nav {
+        background: url(../images/skin4/contact.png) 5px center no-repeat;
+    }
+
+    .skin4 .navbar-default .navbar-nav > li > a:hover {
+        color: #fff;
+        background-color: #3d5b6a;
+    }
+
+    .skin4 .navbar-default .navbar-nav > li > a.home-nav.active {
+        background: #fff url(../images/skin4/home-active.png) 5px center no-repeat;
+    }
+
+    .skin4 .navbar-default .navbar-nav > li > a.portfolio-nav.active {
+        background: #fff url(../images/skin4/portfolio-active.png) 5px center no-repeat;
+    }
+
+    .skin4 .navbar-default .navbar-nav > li > a.services-nav.active {
+        background: #fff url(../images/skin4/services-active.png) 5px center no-repeat;
+    }
+
+    .skin4 .navbar-default .navbar-nav > li > a.testimonials-nav.active {
+        background: #fff url(../images/skin4/testimonials-active.png) 5px center no-repeat;
+    }
+
+    .skin4 .navbar-default .navbar-nav > li > a.about-nav.active {
+        background: #fff url(../images/skin4/about-active.png) 5px center no-repeat;
+    }
+
+    .skin4 .navbar-default .navbar-nav > li > a.contact-nav.active {
+        background: #fff url(../images/skin4/contact-active.png) 5px center no-repeat;
+    }
+}
+
+@media screen and (max-width: 993px) {
+
+    .skin4 .navbar-default .navbar-nav > li > a:hover {
+        background-color: #3d5b6a !important;
+    }
+
+    .skin4 .navbar-default .navbar-nav > li > a.active {
+        background: #ffffff !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .skin4 .navbar-default .navbar-nav > li > a {
+        border-bottom: 1px solid #314d5b;
+    }
+}
